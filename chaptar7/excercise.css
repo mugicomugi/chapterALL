@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 20px;
+    color: #8b8c8c;
+}
+header {
+    width: 100%;
+    height: 400px;
+    background-image: url(img/mv.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+main {
+    width: 840px;
+    margin: 50px auto;
+}
+
+.content {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+}
+.content:nth-last-child {
+    margin-bottom: 0;
+}
